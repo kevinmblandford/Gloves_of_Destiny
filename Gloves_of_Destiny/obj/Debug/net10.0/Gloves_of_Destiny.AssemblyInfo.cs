@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gloves_of_Destiny")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+796b914ce64f7c9bf9468cf3379ad5ff86e89709")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aa4cd4a93409090bee1ff15edd49013c3a97ccb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gloves_of_Destiny")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gloves_of_Destiny")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

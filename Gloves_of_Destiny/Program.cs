@@ -3,6 +3,7 @@ string type = "";
 Random random = new Random();
 int hero_life = 100;
 int score = 0;
+int death = 0;
 for (int i = 0; i < encounters.Length; i++)
 {
     switch (encounters[i])
@@ -27,7 +28,8 @@ for (int i = 0; i < encounters.Length; i++)
                 if (monster_life > hero_life)
                     {
                         Console.WriteLine($"You have been slain! Your final score was {score}. Good luck on your next run hero!");
-                        goto end_death;
+                        death = 1;
+                        goto done;
                     }
                     else
                         {
@@ -63,7 +65,8 @@ for (int i = 0; i < encounters.Length; i++)
                 if (monster_life > hero_life)
                     {
                         Console.WriteLine($"You have been slain! Your final score was {score}. Good luck on your next run hero!");
-                        goto end_death;
+                        death = 1;
+                        goto done;
                     }
                     else
                         {
@@ -101,7 +104,8 @@ for (int i = 0; i < encounters.Length; i++)
         {
                 case 1:
                 Console.WriteLine($"You fall down an endless chasm. Your final score was {score}. Good luck on your next run hero!");
-                goto end_death;
+                death = 1;
+                goto done;
                 case 2:
                 Console.WriteLine($"You deftly avoid arrows from a nearby trap.");
                 break;
@@ -113,4 +117,26 @@ for (int i = 0; i < encounters.Length; i++)
         break;
     }
 }
-end_death: Console.WriteLine($"Your journey has ended hero, but this is only one of many experiences. Shall we try another run?");
+if (hero_life > 0 && score < 1000000)
+{
+    Console.WriteLine($"Your journey has ended hero, You made it out alive but did not find the fabled Gloves of Destiny. Shall we try another run?");
+    goto done;
+}
+else if (hero_life > 0 && score > 1000000)
+{
+    Console.WriteLine($"You are the greatest hero of all! You found the fabled Gloves of Destiny and have conquered the dangerous quest, but this is only one of many experiences. Shall we try another run?");
+    goto done;
+}
+else
+{
+Console.WriteLine($"Your journey has ended hero, but this is only one of many experiences. Shall we try another run?");
+goto done;
+}
+done: if (death == 1)
+{
+Console.WriteLine($"Your journey has ended hero, but this is only one of many experiences. Shall we try another run? Thanks for playing!");    
+}
+else
+{
+Console.WriteLine("Thanks for playing!");    
+}
