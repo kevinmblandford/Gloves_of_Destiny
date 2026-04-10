@@ -1,0 +1,15 @@
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.AssemblyInfoInputs.cache
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.AssemblyInfo.cs
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.csproj.CoreCompileInputs.cache
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.sourcelink.json
+C:\Users\widge\Projects\Gloves_of_Destiny\bin\Debug\net10.0\Gloves_of_Destiny.exe
+C:\Users\widge\Projects\Gloves_of_Destiny\bin\Debug\net10.0\Gloves_of_Destiny.deps.json
+C:\Users\widge\Projects\Gloves_of_Destiny\bin\Debug\net10.0\Gloves_of_Destiny.runtimeconfig.json
+C:\Users\widge\Projects\Gloves_of_Destiny\bin\Debug\net10.0\Gloves_of_Destiny.dll
+C:\Users\widge\Projects\Gloves_of_Destiny\bin\Debug\net10.0\Gloves_of_Destiny.pdb
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.dll
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\refint\Gloves_of_Destiny.dll
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.pdb
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\Gloves_of_Destiny.genruntimeconfig.cache
+C:\Users\widge\Projects\Gloves_of_Destiny\obj\Debug\net10.0\ref\Gloves_of_Destiny.dll
